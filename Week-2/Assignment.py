@@ -32,6 +32,7 @@ True
 #     else:
 #         return False
 
+#Instructor Solution
 def factors(n):
     factorlist = []
     for i in range(1,n+1):
@@ -67,7 +68,7 @@ Here are some examples to show how your function should work.
 >>> delchar("banana","an")
 'banana'
 '''
-
+#Instructor Solution
 def delchar(s,c):
     if len(c) != 1:
         return(s)
@@ -91,6 +92,7 @@ Here are some examples to show how your function should work.
 >>> shuffle([0],[1,3,5])
 [0, 1, 3, 5]
 '''
+#Instructor solution
 def shuffle(l1,l2):
     if len(l1) < len(l2):
         minlength = len(l1)

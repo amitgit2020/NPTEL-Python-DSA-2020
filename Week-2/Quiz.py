@@ -52,4 +52,3 @@ mystery(mylist)
 
 # Sol -[7,11,13]
 # The update l = l[1:] inside the function creates a new list, so the list passed as the argument is not changed.
-

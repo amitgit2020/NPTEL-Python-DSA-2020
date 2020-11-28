@@ -44,11 +44,6 @@ def foo(m):
 '''
 
 
-print(h(19685))
-print(g(36)-g(35))
-print(f(16))
-
-
 # Sol-10
 # Sol-5
 # f(n) sets s to 1 if there is a number i such that i*i == n. n is a perfect square.

@@ -21,6 +21,7 @@ Here are some examples of how your function should work.
 #       return False
 #   return True
 
+#Instructor Solution
 def contracting(l):
     if len(l) < 3:
         return(True)
@@ -66,6 +67,7 @@ Here are some examples to show how your function should work.
 #         vc+=1
 #   return [hc,vc]
   
+#Instructor Solution
 def counthv(l):
     hills = 0
     valleys = 0
@@ -112,6 +114,7 @@ Here are some examples of how your function should work.
 #             b[i].append(m[j][len(m)-i-1])
 #     return(b)
 
+#Instructor Solution
 def leftrotate(m):
     size = len(m)
     rotated_m = []
@@ -121,5 +124,4 @@ def leftrotate(m):
         for r in range(size):
             rotated_m[size-(c+1)].append(m[r][c])
     return(rotated_m)
-
 ###################
