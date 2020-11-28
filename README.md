@@ -1,2 +1,2 @@
 # NPTEL Python DSA
- These are my Quiz & Assignment Problems
+ These are the weekly Quiz & Assignment Problems & Solution
